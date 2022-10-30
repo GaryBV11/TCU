@@ -1,99 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!--CSS Boostrap-->
-    <link rel="stylesheet" href="src/css/bootstrap.min.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/index.css" />
+    <link rel="stylesheet" href="src/css/footer.css" />
 
-</head>
-<body>
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  </head>
+  <body>
     <!--Nav-->
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img id="logo-nav" src="src/img/letras logo.png" alt="Ecos del Poás"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
-            
-            <ul class="navbar-nav  ">
-                <li class="nav-item">
-                    <a class="nav-link" href="hospedaje.html">Hospedaje</a>
-                  </li>  
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Acerca de nosostros</a>
-                  </li>  
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Región</a>
-                  </li>  
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contáctanos</a>
-              </li>  
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img id="logo-nav" src="src/img/letras logo.png" alt="Ecos del Poás"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="hospedaje.html">Hospedaje</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de nosostros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Región</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+
+    <div id="contenedor-principal">
+      <div id="shadow">
+        <div id="texto-inicio">
+          <h1>Bienvenidos a Ecos del Poás</h1>
+          <br />
+          <p>Desconecta & Disfruta</p>
+        </div>
+      </div>
+    </div>
+
+    <h3>¿Qué ofrecemos?</h3>
+    <div id="contenedor-ofertas">
+      <div class="card-ofertas row">
+        <div class="card-imagen col-md-6">
+          <img src="src/img/Dormitorios.jpg" alt="Hospedaje" />
+        </div>
+        <div class="card-texto col-md-6">
+          <h4>Hospedaje</h4>
+          <p>
+            Tenemos una variedad de cabañas donde podrás disfrutar tranquilo, además completamente equipadas y preparadas para recibirte y que disfrutes del lugar.
+          </p>
+          <button type="button" class="btn btn-outline-success">
+            <a href="hospedaje.html">Ver más</a>
+          </button>
+        </div>
+      </div>
+      <div class="card-ofertas row">
+        <div class="card-texto col-md-6 order-2 order-md-1">
+          <h4>Centro de eventos</h4>
+          <p>
+            Si necesitas un lugar para realizar reuniones, fiestas y diferentes tipos de eventos contamos con un salón donde podrás disfrutar de tus actividades.
+          </p>
+          <button type="button" class="btn btn-outline-success">Ver más</button>
+        </div>
+        <div class="card-imagen col-md-6 order-1 order-md-2">
+          <img src="src/img/Salon reunion.jpg" alt="Centro de eventos" />
+        </div>
+      </div>
+      <div class="card-ofertas row">
+        <div class="card-imagen col-md-6">
+          <img src="src/img/Cancha.jpg" alt="Cancha" />
+        </div>
+        <div class="card-texto col-md-6">
+          <h4>Zonas de estar</h4>
+          <p>
+            Disponemos de espacios recreativas para que puedas disfrutar con amigos y familia, donde podrás estar tranquilo, realizar juegos, camping, picnic y actividades.
+          </p>
+          <button type="button" class="btn btn-outline-success">Ver más</button>
+        </div>
+      </div>
+      <div class="card-ofertas row">
+        <div class="card-texto col-md-6 order-2 order-md-1">
+          <h4>Contacto con la naturaleza</h4>
+          <p>
+            Si buscas emociones y disfrutas el contacto con la naturaleza, te ofrecemos la experiencia de disfrutar un ambiente puro a los alrededores.
+          </p>
+          <button type="button" class="btn btn-outline-success">Ver más</button>
+        </div>
+        <div class="card-imagen col-md-6 order-1 order-md-2">
+          <img src="src/img/Rio.jpg" alt="Río" />
+        </div>
+      </div>
+    </div>
+    <!--fOOTER-->
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 pb-2 bg-dark text-white">
+          <div class="col-xs-12 col-md-6 col-lg-3 texto">
+            <p class="h3"><span class="nombre-1">Ecos</span> <span class="nombre-2">de poás</span></p>
+            <img class="img-thumbnail" style="width: 7rem;" src="src/img/letras logo.png" alt="" />
+          </div>
+          
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5"><span class="nombre-1">Información</span></p>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none" href="">Ubicados en póas</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none text-center" href="">+506 7777-7777</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none" href="">ecos@gmail.com</a>
+            </div>
+            
+          </div>
+          
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5"><span class="nombre-2">Servicio</span></p>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none" href="">Cabañas</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none" href="">Picina</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none" href="">Salon de eventos</a>
+            </div>          
+          </div>
+          
+          <div class="col-xs-12 col-md-6 col-lg-3 text-center">
+            <p class="h5"><span class="nombre-1">Contacto</span></p>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none icono" href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none icono" href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none " href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="col-xs-12 pt-3">
+              <p class="text-white text-center">Copyright - All ringhts reserved © 2022</p>
+            </div>
+        </div>
+        
+      </div>
       
-<div id="contenedor-principal">
-<div id="shadow"> 
-  <div id="texto-inicio">
-  <h1>Bienvenidos a Ecos del Poás</h1>
-  <br>
-  <p>Desconecta & Disfruta</p>
-</div>
-</div>
-</div>
+    </footer>
 
 
-<h3>¿Qué ofrecemos?</h3>
-<div  id="contenedor-ofertas">
-<div class="card-ofertas row">
-<div class="card-imagen col-md-6">
-  <img src="src/img/Dormitorios.jpg" alt="Hospedaje">
-</div>
-<div class="card-texto col-md-6">
-  <h4>Hospedaje</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut at obcaecati possimus maiores soluta id tempore in totam repellat eligendi, sint sunt ratione iste laboriosam ab eius omnis excepturi ut!</p>
-    <button type="button" class="btn btn-outline-success"> <a href="hospedaje.html">Ver más</a></button>
-</div>
-</div>
-<div class="card-ofertas row">
-  <div class="card-texto col-md-6 order-2 order-md-1">
-    <h4>Centro de eventos</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut at obcaecati possimus maiores soluta id tempore in totam repellat eligendi, sint sunt ratione iste laboriosam ab eius omnis excepturi ut!</p>
-    <button type="button" class="btn btn-outline-success">Ver más</button>
-  </div>
-  <div class="card-imagen col-md-6 order-1 order-md-2">
-    <img src="src/img/Salon reunion.jpg" alt="Centro de eventos">
-  </div>
-</div>    
-<div class="card-ofertas row">
-  <div class="card-imagen col-md-6">
-    <img src="src/img/Cancha.jpg" alt="Cancha">
-  </div>
-  <div class="card-texto col-md-6">
-    <h4>Zonas de estar</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut at obcaecati possimus maiores soluta id tempore in totam repellat eligendi, sint sunt ratione iste laboriosam ab eius omnis excepturi ut!</p>
-    <button type="button" class="btn btn-outline-success">Ver más</button>
-  </div>
-</div>
-<div class="card-ofertas row">
-  <div class="card-texto col-md-6 order-2 order-md-1">
-    <h4>Contacto con la naturaleza</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut at obcaecati possimus maiores soluta id tempore in totam repellat eligendi, sint sunt ratione iste laboriosam ab eius omnis excepturi ut!</p>
-    <button type="button" class="btn btn-outline-success">Ver más</button>
-  </div>
-  <div class="card-imagen col-md-6 order-1 order-md-2">
-    <img src="src/img/Rio.jpg" alt="Río">
-  </div>
-</div>    
-</div>
-<!--JS Boostrap-->
+
+    <!--JS Boostrap-->
     <script src="src/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
