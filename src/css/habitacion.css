@@ -1,0 +1,47 @@
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+.carousel-indicators {
+  z-index: 20;
+}
+
+#carousel {
+  margin: 0 auto;
+  width: 80%;
+  height: 20rem;
+}
+
+.carousel-item {
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+#contenedor-texto {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.card-header {
+  text-align: center;
+}
+
+ .card ul {
+  list-style: none;
+}
+
+
+
+ 
