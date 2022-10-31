@@ -1,34 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap');
 
 
-.carousel-indicators {
-    z-index: 20;
-  }
-  
-  #carousel,
-  .carousel-item {
-    min-width: 100%;
-    height: 45vh;
-  }
-  
-  .carousel-item {
-    background-position: center;
-    background-size: cover;
-  }
-  
-  #letras-carousel {
-    z-index: 10;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    min-width: 100%;
-    height: 45vh;
-  }
-  
-  #letras-carousel h1 {
-    color: #ffffff;
-    margin: 0 auto;
-  }
   
   .contenedor-principal {
     height: 500px;
@@ -42,7 +14,8 @@
   background-repeat: no-repeat;
 }
 
-#shadow {
+
+#sombra {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -50,6 +23,7 @@
   align-items: center;
   text-align: center;
 }
+
 
 #texto-inicio {
   margin: 0 auto;
@@ -63,64 +37,79 @@
 #texto-inicio p {
   font-size: 2rem;
 }
-  
-  
-  h3 {
-    text-align: center;
-    color: #000;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 1.8rem;
+
+
+ 
+h3 {
+  text-align: center;
+  color: #000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+}
+
+
+p {
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+
+
+#contenedor-ofertas {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 60%;
+}
+
+.card {
+  margin-bottom: 35px !important;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 45rem;
+  max-height: 20rem;
+}
+
+.card img {
+  width: 100%;
+  transition: all 1.5s ease;
+}
+
+.card:hover img{
+  transform: scale(1.1);
   }
-  
-  #contenedor-ofertas {
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 75%;
+
+  .contenedor-imagen {
+  overflow: hidden;
   }
+
+
+
   
-  .card-ofertas {
-    height: 33.33%;
-    margin-bottom: 50px;
-  }
+
   
-  .card-imagen {
-    /*background-color: aqua;*/
-    padding: 0;
-  }
-  
-  .card-imagen img {
-      display: flex;
-      margin: 0 auto;
-    width: 85%;
-  height: 233.3px;
-    border-radius: 7px;
-    object-fit: cover;
-  }
-  
-  
-  .card-texto h4 {
-      text-align: center;
-      margin-bottom: 5%;
-    }
-  
-  .card-texto p {
-      display: flex;
-      margin: 0 auto;
-  width: 85%;
-  margin-bottom: 3%;
-  }
-  
-  .card-texto button {
-      display: flex;
-      margin: 0 auto;
-  }
+
   
   @media (max-width: 768px) {
       .card-texto {
           margin-top: 15px;
       }
+
+   .card {
+    width: 90%;
+      max-height: 40rem;
     
+   }
+    
+   .card  img{
+    width: 100%;
+    height: 13rem;
+   }
+
+
   }
   
   

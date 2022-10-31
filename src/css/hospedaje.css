@@ -50,6 +50,23 @@ h1 {
 }
 
 
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  transition: all 1.4s ease;
+}
+
+.card:hover img{
+  transform: scale(1.1);
+  }
+
+  .contenedor-imagen {
+  overflow: hidden;
+  }
+
 
 .card-img-top {
   height: 12rem;
@@ -58,9 +75,9 @@ h1 {
 
 .card-body {
   text-align: center;
-  border-left: 2px solid #84a83a;
-  border-bottom: 2px solid #84a83a;
-  border-right: 2px solid #84a83a;
+/*  border-left: 2px solid #84a83a;
+ /* border-bottom: 2px solid #84a83a;
+  /*border-right: 2px solid #84a83a;*/
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
