@@ -1,0 +1,97 @@
+#imagen-inicio {
+    height: 350px;
+    background-image: url(../img/contactanos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sombra {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+#texto-inicio {
+    margin: 0 auto;
+  }
+  #texto-inicio h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    margin: 0 auto;
+  }
+    
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+#linea {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(247, 247, 247);
+    height: 2px;
+}
+
+#contenedor-informacion-contacto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-informacion-contacto {
+    width: 300px;
+    background-color: rgb(247, 247, 247);;
+}
+
+.card-informacion-contacto h4 {
+    text-align: center;
+    color: #84a83a;
+}
+
+.card-informacion-contacto {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #84a83a;
+}
+
+a:hover {
+    color: #3e5423;
+}
+
+#contenedor-ubicacion {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contenedor-ubicacion h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#informacion-ubicacion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#mapa {
+    width: 400px;
+    height: 300px;
+}
+
+#informacion-ubicacion p {
+    width: 300px;
+    background-color: rgb(247, 247, 247);
+    margin-left: 30px;
+}
