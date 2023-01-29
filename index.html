@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/index.css" />
     <link rel="stylesheet" href="src/css/footer.css" />
-
     <link rel="stylesheet" 
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!--Animations librery CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
   </head>
   <body>
     <!--Nav-->
@@ -70,7 +74,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
 
     <div id="contenedor-ofertas">
 
-      <div class="card  shadow  mb-3 text-center ">
+      <div class="card  shadow mb-3 text-center">
         <div class="row g-0">
           <div class="col-md-6 contenedor-imagen">
             <img src="src/img/Dormitorios.jpg" class=" rounded-start" alt="Dormitorio">
@@ -137,6 +141,25 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       </div>
     </div>
 
+    <div data-aos="fade-up" id="salonEventos">
+
+      <h3>Salon de eventos</H3>
+
+      <div class="contenidoSalon">
+        <img src="src/img/Salon reunion.jpg" alt="">
+        <div>
+          <p>En ecos de poás contamos un un salon de eventos preparado para su uso, de amplio tamaño.</p>
+          <p>Es un lugar ideal para cualquier nececidad, reuniones, fiestas, eventos, actividades recreativas, exposiciones, comidas, etc.</p>
+          <p>Puden conatactarnos para su uso en cualquier momento.</p>
+          <div class="imagen">
+            <img src="src/img/Salon reunion.jpg" alt="">
+            <img src="src/img/Salon reunion.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
     <!--fOOTER-->
     <footer>
       <div class="container-fluid">
@@ -198,5 +221,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
 
     <!--JS Boostrap-->
     <script src="src/js/bootstrap.bundle.min.js"></script>
+    <!--Animations-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
