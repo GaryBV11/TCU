@@ -1,0 +1,54 @@
+#salonEventos{
+    display: grid;
+    background-color: rgb(247, 247, 247);
+  }
+  
+  #salonEventos h3{
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+  }
+  
+  #salonEventos .contenidoSalon{
+  display: flex;
+  flex-direction: row;
+  }
+  
+  #salonEventos .contenidoSalon img{
+    width: 50%;
+    }
+  
+  
+  #salonEventos .contenidoSalon div p{
+    margin: 20px;
+    font-size: 1.1rem;
+  }
+  #salonEventos .contenidoSalon div .imagen{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  #salonEventos .contenidoSalon div .imagen img{
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+
+ #salonEventos .contenidoSalon{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 247, 247);
+}
+#salonEventos .contenidoSalon{
+  align-items: center;
+}
+#salonEventos .contenidoSalon div .imagen{
+  display: flex;
+  flex-direction: column;
+}
+
+}
