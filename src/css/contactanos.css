@@ -47,7 +47,10 @@
 
 .card-informacion-contacto {
     width: 300px;
-    background-color: rgb(247, 247, 247);;
+    padding-top: 20px;
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .card-informacion-contacto h4 {
@@ -86,12 +89,33 @@ a:hover {
 }
 
 #mapa {
-    width: 400px;
-    height: 300px;
+    width: 70%;
+    height: 400px;
 }
 
 #informacion-ubicacion p {
     width: 300px;
     background-color: rgb(247, 247, 247);
     margin-left: 30px;
+}
+
+#contenedor-informacion-general {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#contenedor-informacion-general h3{
+text-align: center;
+font-size: 1.8rem;
+}
+
+iframe {
+    border-radius: 6px;
+}
+@media (max-width: 991px) {
+
+    .card-informacion-contacto {
+        margin-bottom: 10px;
+    }
+    
 }
