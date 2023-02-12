@@ -49,6 +49,17 @@ html{
   color: #3e5423;
 }
 
+.btn-success  {
+  background-color: #84a83a !important;
+  border-color: #84a83a !important;
+
+}
+
+.btn-success:hover {
+  background-color: #769733 !important;
+  border-color: #769733 !important;
+}
+
 @media (max-width: 991px) {
   .navbar-brand {
     position: static;
