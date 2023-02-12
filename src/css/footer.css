@@ -1,13 +1,44 @@
-.icono{
-   
+footer {
+  background-color: black;
+  color: white;
 }
-.texto{
-    text-align: center;
+footer div {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+footer div {
+  text-align: left;
+}
+footer .div1 .copy {
+  margin-top: 20%;
+}
+footer a {
+  text-align: left;
+  color: gray;
+  text-decoration: none;
+}
+footer a p:hover {
+  text-align: left;
+  color: white;
+}
+footer p {
+  text-align: left;
+  color: gray;
+}
+footer .div4 p:hover {
+  text-align: left;
+  color: white;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.nombre-1{
-    color: brown;
-}
-.nombre-2{
-    color: green;
+@media (max-width: 768px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+  }
 }
