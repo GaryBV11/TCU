@@ -1,54 +1,99 @@
 #salonEventos{
-    display: grid;
-    background-color: rgb(247, 247, 247);
-  }
-  
-  #salonEventos h3{
-    margin: 0 auto;
-    text-align: center;
-    color: #000;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 1.8rem;
-  }
-  
-  #salonEventos .contenidoSalon{
-  display: flex;
-  flex-direction: row;
-  }
-  
-  #salonEventos .contenidoSalon img{
-    width: 50%;
-    }
-  
-  
-  #salonEventos .contenidoSalon div p{
-    margin: 20px;
-    font-size: 1.1rem;
-  }
-  #salonEventos .contenidoSalon div .imagen{
-    display: flex;
-    flex-direction: row;
-    
-  }
-  #salonEventos .contenidoSalon div .imagen img{
-    width: 40%;
-    margin: 0 auto;
-  }
-
-  @media (max-width: 768px) {
-
- #salonEventos .contenidoSalon{
-  display: flex;
-  flex-direction: column;
+  display: grid;
   background-color: rgb(247, 247, 247);
+  margin-bottom: 2%;
 }
+
+#salonEventos h3{
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+}
+
 #salonEventos .contenidoSalon{
-  align-items: center;
+display: flex;
+flex-direction: row;
+}
+
+.imgPrincipal{
+  margin-left: 2%;
+}
+
+#salonEventos .contenidoSalon img{
+  width: 50%;
+  }
+
+
+#salonEventos .contenidoSalon div p{
+  margin: 20px;
+  font-size: 1.1rem;
 }
 #salonEventos .contenidoSalon div .imagen{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  
+}
+#salonEventos .contenidoSalon div .imagen img{
+  width: 40%;
+  margin: 0 auto;
 }
 
+
+#tipos .eventosContenido{
+display: flex;
+flex-direction: row;
+margin: 5% 0%;
+transition: all 1.5s ease;
+}
+#tipos .eventosContenido:hover{
+transform: scale(1.1);
+}
+
+#tipos .imgEventos{
+width: 20%;
+margin: 0% 10%;
+}
+
+#tipos .texto p{
+text-align: center;
+padding: 0% 10%;
+font-size: 1.1rem
+}
+#tipos .texto h1{
+color: #84a83a;
+margin-bottom: 3%;
+font-size: 1.8rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+#salonEventos .contenidoSalon{
+display: flex;
+flex-direction: column;
+background-color: rgb(247, 247, 247);
+}
+#salonEventos .contenidoSalon{
+align-items: center;
+}
+#salonEventos .contenidoSalon div .imagen{
+display: flex;
+flex-direction: column;
+}
+
+#tipos .eventosContenido{
+display: flex;
+flex-direction: column;
+margin: 5% 0%;
+}
+#tipos .imgEventos{
+width: 60%;
+margin: 0% auto;
+
+}
 }
