@@ -84,6 +84,7 @@ h5 {
 .card img {
   width: 100%;
   transition: all 1.5s ease;
+  min-height: 20rem;
 }
 
 .card:hover img{
@@ -148,7 +149,7 @@ flex-direction: row;
 
 
 .prueba2 {
-background-image: url(../img/clover-1225988.jpg);
+background-image: url(../img/pratronplata.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
