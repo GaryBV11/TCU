@@ -72,27 +72,19 @@ margin-bottom: 3%;
 font-size: 1.8rem;
 text-align: center;
 }
-#cultural{
-  text-align: center;
+
+#carrusel{
   background-color: rgb(247, 247, 247);
-}
-#cultural h1{
- font-size: bold;
- font-size: 1.8rem;
-padding: 2%;
-color: #84a83a;
-}
-.fotos{
-  display: flex;
-  flex-direction: row;
-  
-  padding: 2.5%;
-}
-.fotos img{
-  width: 25%;
+  padding: 2%;
+  width: 80%;
   margin: 0 auto;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-bottom: 15px;
+  border-radius: 3%;
 }
+#carrusel img{
+  border-radius: 3%;
+}
+
 
 
 
@@ -122,16 +114,5 @@ margin: 0% auto;
 
 }
 
-.fotos{
-  display: flex;
-  flex-direction: column;
-  
-  padding: 2.5%;
 }
-.fotos img{
-  width: 25%;
-  margin: 0 auto;
-  margin-top: 2%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-}
+
