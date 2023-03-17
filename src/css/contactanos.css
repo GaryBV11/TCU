@@ -90,7 +90,7 @@ a:hover {
 
 #mapa {
     width: 70%;
-    height: 400px;
+    height: 24em;
 }
 
 #informacion-ubicacion p {
@@ -109,6 +109,34 @@ text-align: center;
 font-size: 1.8rem;
 }
 
+#contenedor-informacion-general h3, #contenedor-ubicacion h3 {
+margin-bottom: 1em;
+} 
+
+.texto-verde {
+    color: #84a83a;
+    margin: 0;
+  }
+
+h4 {
+color: #1d1d1d !important 
+}
+
+#contenedor-ubicacion p {
+    margin:  0 auto;
+    text-align: initial;
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+#contenedor-ubicacion img {
+
+    margin-bottom: 2em;
+    border-radius: 6px;
+    width: 60%;
+    height: 24em;
+}
+
 iframe {
     border-radius: 6px;
 }
@@ -118,4 +146,20 @@ iframe {
         margin-bottom: 10px;
     }
     
+    
+}
+
+  
+@media (max-width: 768px) {
+
+    #contenedor-ubicacion img {
+        width: 70%;
+        height: 17em;
+    }
+
+    #mapa {
+        width: 90%;
+        height: 20em;
+    }
+
 }
