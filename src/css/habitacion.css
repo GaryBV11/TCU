@@ -46,8 +46,12 @@ h3 {
 
 .galleria{ 
   width: 90%; 
-  height: 50em;
+  height: 33em;
   margin: 0 auto; 
+}
+
+h1 {
+  font-size: 2em;
 }
 
  
