@@ -36,13 +36,6 @@ h3 {
     text-align: center;
 }
 
-#parrafo-queOfrecemos {
-    margin: 0 auto;
-    width: 90%;
-    margin-bottom: 2em;
-}
-
-
 .contenedor-zona {
     margin: 0 auto ;
     width: 85%;
@@ -54,5 +47,52 @@ margin-top: 1em;
 }
 
 .contenedor-img-card3 img {
-    height: 16em;
+    height: 14em;
+    margin-bottom: 1em;
 }
+
+#contenedor-texto-inicial {
+    margin-bottom: 3em;
+}
+
+#contenedor-texto-inicial p {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#contenedor-texto-inicial h3 {
+    color: #84a83a;
+    font-size: 2em;
+    margin-bottom: 0.6em;
+}
+
+.contenedor-zona h3 {
+    color: #84a83a;
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+
+.texto-izquierda {
+    text-align: left;
+}
+
+
+#parrafo-principal-picnic {
+    margin-bottom: 2em;
+}
+
+ .contenedor-div-zona {
+    margin-bottom: 3em;
+}
+
+@media (max-width: 768px) {
+    .contenedor-div-zona {
+        margin-bottom: 1em;
+    }
+    .contenedor-div-zona img {
+        margin-bottom: 1em;
+    }
+    .texto-izquierda {
+        text-align: center;
+    }
+    }

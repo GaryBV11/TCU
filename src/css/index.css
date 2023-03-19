@@ -157,7 +157,7 @@ flex-direction: row;
 }
 
 .contenedor-logo-principal p {
- text-align: justify;
+ text-align: center;
 }
 
 
@@ -179,8 +179,8 @@ text-align: center;
 .contenedor-fondo-flores p {
   color: #ffffff;
   font-size: 20px;
-  text-align: justify;
-width: 70%;
+  text-align: center;
+  width: 70%;
 margin: 0 auto;
 }
 
