@@ -47,8 +47,12 @@ margin-top: 1em;
 }
 
 .contenedor-img-card3 img {
-    height: 14em;
+    height: 16em;
     margin-bottom: 1em;
+}
+
+img {
+    border-radius: 7px !important;
 }
 
 #contenedor-texto-inicial {
@@ -94,5 +98,9 @@ margin-top: 1em;
     }
     .texto-izquierda {
         text-align: center;
+    }
+
+    .contenedor-img-card3 img {
+        height: 18em;
     }
     }
