@@ -1,6 +1,5 @@
 #salonEventos{
   display: grid;
-  background-color: rgb(247, 247, 247);
   margin-bottom: 2%;
 }
 
@@ -44,9 +43,12 @@ flex-direction: row;
   width: 40%;
   margin: 0 auto;
 }
-
+#tipos{
+  background-color: rgb(247, 247, 247);
+}
 
 #tipos .eventosContenido{
+  background-color: rgb(247, 247, 247);
 display: flex;
 flex-direction: row;
 margin: 5% 0%;
@@ -74,7 +76,6 @@ text-align: center;
 }
 
 #carrusel{
-  background-color: rgb(247, 247, 247);
   padding: 2%;
   width: 80%;
   margin: 0 auto;
