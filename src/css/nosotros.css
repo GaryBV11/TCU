@@ -27,31 +27,11 @@
   }
 
 
-#parte1 {
-  height: 25rem;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 8%;
+h3 {
+  text-align: center;
+  color: #84a83a;;
 }
-#parte1 .info{
-    display: flex;
-    flex-direction: row;
-  }
-  #parte1 .info .texto{
-    text-align: justify;
-    font-size: 1.2rem;
-    margin: 2%;
-    padding: 1%;
-    background-color: rgb(247, 247, 247);
-    font-weight: bold;
-  }
-  #parte1 .info .imagen{
-    width: 60%;
-    text-align: center;
-  }
-  #parte1 .info img{
-    width: 90%;
-  }
+
 #parte2 {
     height: 35rem;
     background-color: rgb(247, 247, 247);
@@ -62,6 +42,7 @@
     padding-right: 5%; 
     margin: 0 10%;
 }
+
 #parte2 .contenido{
     display: flex;
     flex-direction: column;
@@ -83,13 +64,136 @@
     margin-bottom: 5%;
     width: 10rem;
 }
-#parte3 {
-    height: 25rem;
+
+
+
+#time-line ul {
+  width: 100%;
+  text-align: center;
 }
 
+#time-line li {
+  list-style: none;
+  display: inline-block;
+  padding: 1em;
+  font-size: 1.1em;
+}
 
+.mostrar-card {
+  /* height: 15rem; */
+  /* background-color: rgb(247, 247, 247); */
+  width: 50%;
+  left: 27%;
+  position: absolute;
+  border-radius: 7px; 
+  animation: fadeIn 1s;
+}
 
-@media (max-width: 768px) {
+.mostrar-card img {
+  display: flex;
+  margin: 0 auto;
+  width: 7rem;
+  height: 7rem;
+  margin-bottom: 1.4rem;
+}
+
+.mostrar-card p {
+font-size: 1.1em !important;
+width: 90%;
+margin: 0 auto;
+}
+
+#img-convivencia {
+  width: 7rem;
+  height: 6rem;
+}
+
+#img-respeto {
+  width: 7rem;
+  height: 5.5rem;
+}
+
+ #img-libertad {
+height: 5rem;
+width: 5rem;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.ocultar-card {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#contenedor-cards-creemos {
+height: 24rem;
+}
+
+.label-activa {
+  border-bottom: 4px solid #84a83a;
+  }
+  
+
+#contenedor-historia {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contenedor-historia img {
+  width: 90%;
+  height: 25rem;
+  margin: 0 auto;
+}
+
+#contenedor-historia-p {
+  display: flex;
+  align-items: center;
+}
+
+#contenedor-fundador {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contenedor-fundador-img {
+  height: 25rem;
+  margin-bottom: 20px;
+}
+
+#contenedor-fundador-img img {
+width: 100%;
+height: 100%;
+border-radius: 5px;
+}
+
+@media (max-width: 990px) {
+  #contenedor-historia {
+    width: 70%;
+  }
+
+  #contenedor-historia img {
+    width: 40%;
+    margin-bottom: 30px !important;
+    margin: 0 auto;
+    display: flex;
+  } 
+}
+
+@media (max-width: 800px) {
     #parte1{
         margin-bottom: 10%;
     }
@@ -119,4 +223,25 @@
         width: 0rem;
     }
 
+    #contenedor-historia img {
+      width: 50%;
+    }
+
+    
+  #contenedor-cards-creemos {
+    height: 29rem;
+    }
+
+#contenedor-fundador-img {
+  height: 20rem;
+}
+}
+@media (max-width: 500px) {
+  #contenedor-cards-creemos {
+    height: 38rem;
+    }
+
+    #contenedor-fundador-img {
+      height: 25rem;
+    }
 }

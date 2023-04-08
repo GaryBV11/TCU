@@ -1,7 +1,7 @@
 /* Imagen inicio */
 #imagen-inicio {
     height: 350px;
-    background-image: url(../img/water-1018808_1280.jpg);
+    background-image: url(../img/Region/Region.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,3 +88,30 @@ h3 {
     .volcan-carrusel p{
         margin-top: 1rem;
     }
+
+    .contenedor-varias-img img {
+        height: 27rem;
+    }
+
+    .contenedor-varias-img .contenedor-div-zona {
+        margin-bottom: 30px;
+    }
+
+    .div-ultimo {
+        margin-bottom: 10px !important;
+    }
+
+    .col-md-5 {
+        display: flex;
+        align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .col-md-5 p {
+                margin-top: 0;
+                }
+
+            .contenedor-varias-img img {
+                height: 20rem;
+            }
+        }

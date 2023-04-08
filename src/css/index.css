@@ -8,7 +8,7 @@
 
 #contenedor-principal{
   height: 500px;
-  background-image: url(../img/volcan-poas-costa-rica-1.jpg);
+  background-image: url(../img/Lago\ Poás.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@ h5 {
   margin-bottom: 35px !important;
   overflow: hidden;
   margin: 0 auto;
-  max-height: 17rem;
+  max-height: 18rem;
 }
 
 .card img {
@@ -194,8 +194,33 @@ a:hover {
   color: #ffffff;
 }
 
-  
+h3 {
+  color: #84a83a;
+}
 
+@media (min-width: 1700px) {
+  #p-slogan{
+    font-size: 2.3rem !important;
+  }
+
+  h5 {
+    font-size: 1.4rem !important;
+  }
+
+  .card {
+  width: 90%;
+  }
+
+  .card a {
+    font-size: 1rem !important
+  }
+}
+
+@media (max-width: 1132px) {
+.card {
+  max-height: 21rem;
+}
+}
   
   @media (max-width: 768px) {
       .card-texto {
@@ -204,7 +229,7 @@ a:hover {
 
    .card {
     width: 90%;
-      max-height: 35em;
+      max-height: 36em;
     
    }
     

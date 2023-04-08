@@ -140,13 +140,22 @@ color: #1d1d1d !important
 iframe {
     border-radius: 6px;
 }
+
+#img-entrada {
+    width: 55% !important;
+}
+
+@media (min-width: 1700px) {
+#img-entrada {
+    width: 45% !important;
+}
+}
+
 @media (max-width: 991px) {
 
     .card-informacion-contacto {
         margin-bottom: 10px;
-    }
-    
-    
+    } 
 }
 
   

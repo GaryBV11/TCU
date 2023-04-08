@@ -1,6 +1,6 @@
 #imagen-inicio {
     height: 350px;
-    background-image: url(../img/water-1018808_1280.jpg);
+    background-image: url(../img/zonaEstar.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,6 +90,23 @@ img {
     margin-bottom: 3em;
 }
 
+.col-md-5 {
+display: flex;
+align-items: center;
+}
+
+.contenedor-varias-img img {
+    height: 27rem;
+}
+
+.contenedor-varias-img .contenedor-div-zona {
+    margin-bottom: 30px;
+}
+
+.div-ultimo {
+    margin-bottom: 10px !important;
+}
+
 @media (max-width: 768px) {
     .contenedor-div-zona {
         margin-bottom: 1em;
@@ -103,5 +120,13 @@ img {
 
     .contenedor-img-card3 img {
         height: 18em;
+    }
+
+    .col-md-5 p {
+        margin-top: 0;
+        }
+
+    .contenedor-varias-img img {
+            height: 20rem;
     }
     }
