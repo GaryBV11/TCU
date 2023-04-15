@@ -8,7 +8,7 @@
 
 #contenedor-principal{
   height: 500px;
-  background-image: url(../img/volcan-poas-costa-rica-1.jpg);
+  background-image: url(../img/Lago\ Poás.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@ h5 {
   margin-bottom: 35px !important;
   overflow: hidden;
   margin: 0 auto;
-  max-height: 20rem;
+  max-height: 18rem;
 }
 
 .card img {
@@ -91,50 +91,16 @@ h5 {
   transform: scale(1.1);
   }
 
+  .card-body p {
+    text-align: justify;
+  }
+
   .contenedor-imagen {
   overflow: hidden;
   }
 
-  /*
-#salonEventos{
-  display: grid;
-  background-color: rgb(247, 247, 247);
-}
 
-#salonEventos h3{
-  margin: 0 auto;
-  text-align: center;
-  color: #000;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 1.8rem;
-}
-
-#salonEventos .contenidoSalon{
-display: flex;
-flex-direction: row;
-}
-
-#salonEventos .contenidoSalon img{
-  width: 50%;
-  }
-
-
-#salonEventos .contenidoSalon div p{
-  margin: 20px;
-  font-size: 1.1rem;
-}
-#salonEventos .contenidoSalon div .imagen{
-  display: flex;
-  flex-direction: row;
-  
-}
-#salonEventos .contenidoSalon div .imagen img{
-  width: 40%;
-  margin: 0 auto;
-}*/
-
-.prueba {
+.contenedor-logo-principal {
   text-align: center;
   width: 80%;
   margin: 0 auto;
@@ -142,13 +108,22 @@ flex-direction: row;
   margin-bottom: 4em;
 }
 
-.prueba img {
+.contenedor-logo-principal img {
   height: 16em;
   margin-bottom: 30px;
 }
 
+.contenedor-logo-principal h4 {
+  font-size: 1.9em;
+  margin-bottom: 1em;
+}
 
-.prueba2 {
+.contenedor-logo-principal p {
+ text-align: center;
+}
+
+
+.contenedor-fondo-flores {
 background-image: url(../img/pratronplata.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -157,14 +132,18 @@ height: 30em;
 text-align: center;
 }
 
-.prueba2 h3 {
+.contenedor-fondo-flores h4 {
   color: #84a83a;
-  font-size: 55px;
+  font-size: 0.7em;
+  margin-bottom: 0.6em;
 }
 
-.prueba2 p {
+.contenedor-fondo-flores p {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 a {
@@ -177,8 +156,33 @@ a:hover {
   color: #ffffff;
 }
 
-  
+h3 {
+  color: #84a83a;
+}
 
+@media (min-width: 1700px) {
+  #p-slogan{
+    font-size: 2.3rem !important;
+  }
+
+  h5 {
+    font-size: 1.4rem !important;
+  }
+
+  .card {
+  width: 90%;
+  }
+
+  .card a {
+    font-size: 1rem !important
+  }
+}
+
+@media (max-width: 1132px) {
+.card {
+  max-height: 21rem;
+}
+}
   
   @media (max-width: 768px) {
       .card-texto {
@@ -187,15 +191,14 @@ a:hover {
 
    .card {
     width: 90%;
-      max-height: 40rem;
+      max-height: 36em;
     
    }
     
    .card  img{
     width: 100%;
-    height: 13rem;
+    min-height: 15em !important;
    }
-
    /*
    #salonEventos .contenidoSalon{
     display: flex;

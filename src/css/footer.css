@@ -35,6 +35,10 @@ footer .div4 p:hover {
   flex-direction: row;
   justify-content: space-around;
 }
+.logo {
+  width: 20px;
+  height: 20px;
+}
 
 @media (max-width: 768px) {
   .parent {
