@@ -4598,7 +4598,9 @@ textarea.form-control-lg {
 .card-img-bottom {
   width: 100%;
 }
-
+.nav-link:hover {
+  color: #3e5423;
+}
 .card-img,
 .card-img-top {
   border-top-left-radius: calc(0.25rem - 1px);

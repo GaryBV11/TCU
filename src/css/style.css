@@ -32,7 +32,9 @@ html{
 /*nav {
   background-color: aqua;
 }*/
-
+#a:hover{
+  color: #3e5423;
+}
 .navbar-brand {
   z-index: 1;
   position: absolute;
@@ -45,14 +47,14 @@ html{
   font-family: 'Poppins', sans-serif;
 }
 
-.nav-link:hover {
+.navbar-nav:hover {
   color: #3e5423;
 }
 
 .btn-success  {
   background-color: #84a83a !important;
   border-color: #84a83a !important;
-
+  
 }
 
 .btn-success:hover {
