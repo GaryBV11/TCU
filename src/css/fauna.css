@@ -242,6 +242,65 @@ p {
 	/* border: 1px solid green; */
 }
 
+.image-content15{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60vmin;
+	height: 100%;
+	background-image: url("../img/fauna/culebraRug.jpg");
+	background-size: cover;
+	transition: .3s ease-in-out;
+	/* border: 1px solid green; */
+}
+
+.image-content16{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60vmin;
+	height: 100%;
+	background-image: url("../img/fauna/culebraMano.jpg");
+	background-size: cover;
+	transition: .3s ease-in-out;
+	/* border: 1px solid green; */
+}
+
+.image-content17{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60vmin;
+	height: 100%;
+	background-image: url("../img/fauna/culebraLora.jpg");
+	background-size: cover;
+	transition: .3s ease-in-out;
+	/* border: 1px solid green; */
+}
+
+.image-content18{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60vmin;
+	height: 100%;
+	background-image: url("../img/fauna/culebraArroyera.jpg");
+	background-size: cover;
+	transition: .3s ease-in-out;
+	/* border: 1px solid green; */
+}
+
+.image-content19{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60vmin;
+	height: 100%;
+	background-image: url("../img/fauna/culebraMinera.jpeg");
+	background-size: cover;
+	transition: .3s ease-in-out;
+	/* border: 1px solid green; */
+}
 
 .text {
 	position: absolute;
