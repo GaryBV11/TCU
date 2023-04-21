@@ -47,6 +47,7 @@ h3 {
     display: flex;
     flex-direction: column;
      align-items: center;
+     width: 50%;
 }
 #parte2 .contenido h3{
     margin-top: 2%;
@@ -220,6 +221,9 @@ border-radius: 5px;
       #parte2{
         display: flex;
         flex-direction: column;
+      }
+      #parte2 .contenido{
+        margin: 0 auto;
       }
       #parte2 .contenido i{
         font-size: 0rem;
