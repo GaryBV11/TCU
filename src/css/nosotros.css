@@ -32,15 +32,16 @@ h3 {
   color: #84a83a;;
 }
 
-#parte2 {
-    height: 35rem;
+#parte2 {   
     background-color: rgb(247, 247, 247);
     display: flex;
     flex-direction: row;
+    /*
     padding-top: 2%;
     padding-left: 5%;
     padding-right: 5%; 
     margin: 0 10%;
+    */
 }
 
 #parte2 .contenido{
@@ -197,6 +198,11 @@ border-radius: 5px;
     width:80% ;
     left: 10% !important;
     }
+
+    #parte2 .contenido{
+      display: flex;
+      flex-direction: column;  
+  }
 }
 
 @media (max-width: 800px) {
