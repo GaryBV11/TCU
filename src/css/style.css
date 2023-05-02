@@ -7,8 +7,6 @@ body {
 }
 html{
   font-size: 16px;
-   
-  
 }
 
 @media (max-width: 991px) {
@@ -20,7 +18,7 @@ html{
 
 @media (max-width: 540px) {
   html {
-    font-size: 12px;
+    font-size: 13px;
   }
   
 }
