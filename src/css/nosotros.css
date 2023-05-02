@@ -124,6 +124,11 @@ height: 5rem;
 width: 5rem;
 }
 
+#img-Humanidad {
+  height: 5rem;
+width: 5rem;
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -172,6 +177,10 @@ margin-bottom: 20px;
 #contenedor-historia-p {
   display: flex;
   align-items: center;
+}
+
+#contenedor-historia-p p {
+text-align: justify;
 }
 
 #contenedor-fundador {
@@ -292,16 +301,10 @@ border-radius: 5px;
     }
 
         
-    #contenedor-historia p {
+    #contenedor-historia-p {
       width: 80%;
-      text-align: center;
       margin: 0 auto;
-
     }
-    /* #contenedor-cards-creemos {
-      height: auto; 
-     }
-   */
 }
 
 @media (max-width: 500px) {

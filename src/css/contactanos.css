@@ -90,7 +90,7 @@ a:hover {
 
 #mapa {
     width: 70%;
-    height: 24em;
+    height: 35em;
 }
 
 #informacion-ubicacion p {
@@ -162,7 +162,7 @@ iframe {
 @media (max-width: 768px) {
 
     #contenedor-ubicacion img {
-        width: 70%;
+        width: 80% !important;
         height: 17em;
     }
 

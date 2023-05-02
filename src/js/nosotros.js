@@ -1,7 +1,7 @@
 
 
 function cards (card) {
-    var cards = new Array('c1','c2','c3','c4');
+    var cards = new Array('c1','c2','c3','c4','c5');
     for (const element of cards) {
         var item = document.getElementById(element);
     if (element == card) {
