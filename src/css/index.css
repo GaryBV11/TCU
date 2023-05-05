@@ -78,7 +78,7 @@ h5 {
   margin-bottom: 35px !important;
   overflow: hidden;
   margin: 0 auto;
-  max-height: 18rem;
+  max-height: 30rem;
 }
 
 .card img {
@@ -180,7 +180,7 @@ h3 {
 
 @media (max-width: 1132px) {
 .card {
-  max-height: 21rem;
+  max-height: 35rem;
 }
 }
   
@@ -199,6 +199,8 @@ h3 {
     width: 100%;
     min-height: 15em !important;
    }
+
+   
    /*
    #salonEventos .contenidoSalon{
     display: flex;
